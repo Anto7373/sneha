@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Birthday Surprise for Sneha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="hero">
+    <p class="eyebrow">A little surprise for</p>
+    <h1>Sneha</h1>
+
+    <section class="countdown" id="countdown" aria-label="Countdown to Sneha's birthday">
+      <div class="time-unit">
+        <span id="days">000</span>
+        <small>Days</small>
+      </div>
+      <div class="time-unit">
+        <span id="hours">00</span>
+        <small>Hours</small>
+      </div>
+      <div class="time-unit">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+      </div>
+      <div class="time-unit">
+        <span id="seconds">00</span>
+        <small>Seconds</small>
+      </div>
+    </section>
+
+    <button class="primary-button" id="revealButton" type="button">
+      Your Birthday Letter Is Waiting
+    </button>
+    <p class="unlock-message" id="unlockMessage" aria-live="polite">
+      This letter unlocks on November 28, 2026 ♡
+    </p>
+  </main>
+
+  <section class="letter card" id="letter" aria-hidden="true" hidden>
+    <p class="letter-kicker">To the girl who makes ordinary moments magical</p>
+    <h2>My Sneha,</h2>
+    <p>
+      Some people are simply found; others feel as if they were written into
+      every line of our story before we knew how to read it. You are the
+      beautiful chapter I never want to end.
+    </p>
+    <p>
+      In your smile, I found a place called home. In your laughter, I found
+      my favorite melody. And in your heart, I found a kind of love that
+      makes tomorrow feel brighter than today.
+    </p>
+    <p>
+      On your birthday, I wish you every soft sunrise, every brave dream,
+      and every quiet moment that reminds you how deeply cherished you are.
+      May life love you as beautifully as you have loved the world around you.
+    </p>
+    <p class="signature">Forever your admirer ♡</p>
+  </section>
+
+  <section class="memories" id="memories" aria-label="Our memories" hidden>
+    <div class="section-heading reveal">
+      <p class="letter-kicker">The moments we keep</p>
+      <h2>A Few of Our Memories</h2>
+    </div>
+
+    <div class="memory-grid">
+      <figure class="memory-card memory-card-large reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220415_115338.jpg" alt="A cherished memory" loading="lazy">
+        </div>
+        <figcaption>Our favorite memory</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220415_114922.jpg" alt="A beautiful moment together" loading="lazy">
+        </div>
+        <figcaption>A beautiful moment</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220415_114744.jpg" alt="A smile worth remembering" loading="lazy">
+        </div>
+        <figcaption>One of my favorite smiles</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220415_114145.jpg" alt="A special day together" loading="lazy">
+        </div>
+        <figcaption>A special day</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220101_135723.jpg" alt="A lovely memory" loading="lazy">
+        </div>
+        <figcaption>A lovely memory</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220101_113459.jpg" alt="Another cherished moment" loading="lazy">
+        </div>
+        <figcaption>Another cherished moment</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20220101_113448.jpg" alt="A moment kept forever" loading="lazy">
+        </div>
+        <figcaption>A moment kept forever</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20211225_181527.jpg" alt="A joyful memory" loading="lazy">
+        </div>
+        <figcaption>Joy in every detail</figcaption>
+      </figure>
+
+      <figure class="memory-card reveal">
+        <div class="memory-photo-wrap">
+          <img src="src/IMG_20211225_181515.jpg" alt="A memory from our story" loading="lazy">
+        </div>
+        <figcaption>From our story</figcaption>
+      </figure>
+    </div>
+
+    <div class="video-card reveal">
+      <div class="section-heading">
+        <p class="letter-kicker">Play our story</p>
+        <h2>A Little Video Message</h2>
+      </div>
+      <div class="media-placeholder video-placeholder">
+        <button class="play-button" type="button" aria-label="Video placeholder">
+          <span>▶</span>
+        </button>
+        <p>Video will be added here</p>
+      </div>
+    </div>
+
+    <p class="final-wish reveal">More memories, more laughter, and many more birthdays together ♡</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
